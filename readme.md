@@ -100,14 +100,6 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
 ##### diff 算法
 ```
 <script>
-    // js书写 element json
-    // {
-    //     tagName: 'li', props: { id: 'item' }, children: [
-    //         { tagName: 'span', props: { id: 'spanele' }, children: ['span 1'] },
-    //         { tagName: 'span', props: { id: 'spanele' }, children: ['span 2'] }
-    //     ]
-    // }
-
     let result = [];
     const diffLeafs = function (beforeLeaf, afterLeaf) {
         //获取较大节点树的长度
@@ -140,7 +132,6 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
             }
         }
     }
-
     // result 就是diff算法比较后得到的 等待执行的 更新队列 batch
 </script>
 ```
