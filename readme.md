@@ -146,8 +146,8 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
 ```
 
 ##### 参考文章
-[深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
-[理解 Virtual DOM](https://github.com/y8n/blog/issues/5)
+> *[深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
+> *[理解 Virtual DOM](https://github.com/y8n/blog/issues/5)
 
 
 #### 2.JSX（JS+XML）
