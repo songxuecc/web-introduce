@@ -11,7 +11,7 @@
 
 [页面操作 示例](https://app.creams.io/project/set/buildingSet)
 
-## 主流浏览器 && 区别
+## 主流浏览器 && 区别 -- 为何选择chorme
 
 ![cffa9315fd586df1b97f57139df63e69.jpeg](./images/web.jpeg)
 
