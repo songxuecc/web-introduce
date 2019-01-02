@@ -50,6 +50,20 @@ Chrome、360极速浏览器以及搜狗高速浏览器基于Webkit内核开发�
 
 ![dva](https://img-blog.csdn.net/20180415145834303?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hmeTE1MzUy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
+
+```sh
+.
+├── components              # Modal, reusable component
+├── constants
+├── containers              # App Containers, provide united/separated part
+├── index.jsx
+├── redux                   # Project redux
+├── router                  # react-router ^4.0.0, router controls app layout
+├── theme                   # global style
+└── utils
+```
+
+
 #### 1.virtual dom（虚拟dom ） && diff 算法
 具有batching(批处理)和高效的Diff算法
 Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据更新下，能够对视图进行合理、高效的更新。这一点是原生操作远远无法替代的。
