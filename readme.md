@@ -230,7 +230,7 @@ Facebook内部Ads Manager iOS版本由7位前端工程师用React Native花了5�
 首先 redux 可以认为是 发布/订阅 模型的一种实现，组件通过 action 发布事件，经过 reducer 处理后，将改变后的数据通知到订阅 stroe 的组件，然后触发监听 store 的组件的变动，像后端的 mq， kafka
 
 ##### Redux 的设计思想很简单，就两句话
-> * Web应用是一个状态机，试图与状态是一一对应的。
+> * Web应用是一个状态机，视图与状态是一一对应的。
 > * 所有的状态，保存在一个对象里面redux 通过 store 存储几乎所有的数据信息，将数据平铺在一个大 JSON 中，便于各处获取使用。
 
 ![](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016091802.jpg)
