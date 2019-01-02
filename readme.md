@@ -234,7 +234,7 @@ Facebook内部Ads Manager iOS版本由7位前端工程师用React Native花了5�
 
 
 ### react-redux 数据管理
-![b3aaaccb9f03d03dc921c07c59b9b009.jpeg](evernotecid://0EA9DC88-1E3E-4373-ABE0-3A9B15A376C2/appyinxiangcom/22806249/ENResource/p2)
+![b3aaaccb9f03d03dc921c07c59b9b009.jpeg](../images/component.jpg)
 
 首先 redux 可以认为是 发布/订阅 模型的一种实现，组件通过 action 发布事件，经过 reducer 处理后，将改变后的数据通知到订阅 stroe 的组件，然后触发监听 store 的组件的变动，像后端的 mq， kafka
 
