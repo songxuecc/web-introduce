@@ -13,7 +13,7 @@
 
 ## 主流浏览器 && 区别
 
-![cffa9315fd586df1b97f57139df63e69.jpeg](evernotecid://0EA9DC88-1E3E-4373-ABE0-3A9B15A376C2/appyinxiangcom/22806249/ENResource/p3)
+![cffa9315fd586df1b97f57139df63e69.jpeg](./images/web.jpeg)
 
 #### 1.渲染引擎和JavaScript引擎 
 JavaScript引擎：够提供执行JavaScript代码的运行环境 
@@ -147,8 +147,8 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
 
 ##### 参考文章
 [如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13) <br/>
-[理解 Virtual DOM](https://github.com/y8n/blog/issues/5)
-
+[理解 Virtual DOM](https://github.com/y8n/blog/issues/5) <br/>
+[Build Your Own React ](https://www.vividbytes.io/Minimum-Viable-React_Part-1/)
 
 #### 2.JSX（JS+XML）
 ##### angular 模版语法
