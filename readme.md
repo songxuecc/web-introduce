@@ -62,7 +62,7 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
 
 
 ##### virtual dom
-
+![深度优先遍历，记录差异](https://camo.githubusercontent.com/6cdc35026bcbb6aa0f8fb4aaca3596963192a7f3/687474703a2f2f6c69766f7261732e6769746875622e696f2f626c6f672f7669727475616c2d646f6d2f6466732d77616c6b2e706e67)
 ```
 <script>
     function Element(tagName, props, children){
