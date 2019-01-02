@@ -142,7 +142,7 @@ Virtual DOM的优势不在于单次的操作,而是在大量、频繁的数据�
 [Build Your Own React ](https://www.vividbytes.io/Minimum-Viable-React_Part-1/)
 
 #### 2.JSX（JS+XML）
-##### angular 模版语法
+##### vue 模版语法
 
 ```
 <div id="app">
