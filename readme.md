@@ -247,7 +247,6 @@ Facebook内部Ads Manager iOS版本由7位前端工程师用React Native花了5�
 > * Web应用是一个状态机，视图与状态是一一对应的。
 > * 所有的状态，保存在一个对象里面redux 通过 store 存储几乎所有的数据信息，将数据平铺在一个大 JSON 中，便于各处获取使用。
 
-![](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016091802.jpg)
 
 
 
