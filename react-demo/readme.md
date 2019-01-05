@@ -27,14 +27,13 @@
     npm install react-app-rewired --save-dev
     在项目根目录中创建config-overrides.js文件用于修改默认配置
 
-
-    (```)
-    /* config-overrides.js */
-    module.exports = function override(config, env) {
-    //do stuff with the webpack config...
-    return config;
-    }
-    (```)
+```
+/* config-overrides.js */
+module.exports = function override(config, env) {
+//do stuff with the webpack config...
+return config;
+}
+```
 
 
 
