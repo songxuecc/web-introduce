@@ -26,7 +26,9 @@
 ### 2.使用react-app-rewired 扩展create-react-app的webpack配置
     npm install react-app-rewired --save-dev
     在项目根目录中创建config-overrides.js文件用于修改默认配置
-    ```
+
+
+    ```sh
     /* config-overrides.js */
     module.exports = function override(config, env) {
     //do stuff with the webpack config...
