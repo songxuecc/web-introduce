@@ -14,12 +14,25 @@
     检查安装成功 node -v
 
 ## 搭建
+### 1.用create-react-app 新建项目
+
     npm install -g create-react-app
     create-react-app 你的项目名
     cd 你的项目名
     npm run start
 
     启动 localhost:3000
+
+### 2.使用react-app-rewired 扩展create-react-app的webpack配置
+    npm install react-app-rewired --save-dev
+    在项目根目录中创建config-overrides.js文件用于修改默认配置
+    ```
+    /* config-overrides.js */
+    module.exports = function override(config, env) {
+    //do stuff with the webpack config...
+    return config;
+    }
+    ```
 
 
 
