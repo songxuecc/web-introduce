@@ -28,13 +28,13 @@
     在项目根目录中创建config-overrides.js文件用于修改默认配置
 
 
-    ```sh
+    (```)
     /* config-overrides.js */
     module.exports = function override(config, env) {
     //do stuff with the webpack config...
     return config;
     }
-    ```
+    (```)
 
 
 
